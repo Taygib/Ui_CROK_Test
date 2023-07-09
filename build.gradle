@@ -35,12 +35,10 @@ repositories {
 dependencies {
     testImplementation(
             //'com.codeborne:selenide:6.3.5',
-            'com.codeborne:selenide:6.15.0',
+            "com.codeborne:selenide:6.16.0",
             "org.junit.jupiter:junit-jupiter:5.9.3",
             "org.slf4j:slf4j-simple:2.0.6",
             'io.qameta.allure:allure-selenide:2.22.2',
-            "io.rest-assured:rest-assured:5.3.0",
-            "io.qameta.allure:allure-rest-assured:2.21.0",
             "com.fasterxml.jackson.core:jackson-databind:2.14.2",
     )
 }
